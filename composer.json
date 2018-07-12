@@ -1,0 +1,26 @@
+{
+    "name": "modera/experimental-sf3",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Ivanitsa",
+            "email": "alexander.ivanitsa@modera.net"
+        }
+    ],
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kuller86/automotive-sf3"
+        }
+    ],
+    "require": {
+		"modera/foundation": "dev-sf3",
+        "modera/automotive-sf3": "dev-master",
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
+    }
+}
